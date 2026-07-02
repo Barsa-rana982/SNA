@@ -1,0 +1,42 @@
+============================================================
+SOCIAL NETWORK ANALYSIS - CLUSTERING REPORT
+============================================================
+Analysis Date: 2025-10-19 02:42:30
+Total Employees Analyzed: 19780
+Total Employee-Week Records: 75481
+
+[K-MEANS] BEHAVIORAL SEGMENTATION
+----------------------------------------
+Number of Clusters: 6
+Silhouette Score: 0.477
+  Core_Connectors: 75481 records (100.0%)
+
+[LOUVAIN] COMMUNITY DETECTION
+----------------------------------------
+Average Communities per Week: 82.8
+Average Modularity: 0.770
+  (Higher modularity = stronger community structure)
+
+[HDBSCAN] OUTLIER DETECTION
+----------------------------------------
+Outliers Detected: 20627 (27.3%)
+Dense Clusters Found: 11
+
+[BURNOUT] RISK ASSESSMENT
+----------------------------------------
+  Low Risk: 29591 records (39.2%)
+  Medium Risk: 29208 records (38.7%)
+  High Risk: 13102 records (17.4%)
+  Critical Risk: 3580 records (4.7%)
+Average Burnout Risk Score: 32.1/100
+
+[INSIGHTS] ACTIONABLE RECOMMENDATIONS
+----------------------------------------
+• 16682 employee-weeks show high burnout risk
+  → Consider workload redistribution and wellness check-ins
+• 20627 communication outliers detected
+  → May indicate innovation leaders or isolated employees
+• Strong community structure detected (modularity: 0.770)
+  → Consider team structures align with natural collaboration patterns
+
+============================================================
